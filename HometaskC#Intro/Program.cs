@@ -93,3 +93,56 @@ Console.WriteLine("Hello, World!");
 //Console.WriteLine(result);
 
 #endregion
+
+#region Task4v3
+
+//int[] arr = { 111, 222, 1111, 2222, 11111, 22222, 111111 };
+
+//int sumOfThree = 0;
+//int sumOfFour = 0;
+//int sumOfFive = 0;
+//int sumOfSix = 0;
+//int multOfThree = 1;
+//int multOfFour = 1;
+//double result = 0;
+
+
+//foreach (int i in arr)
+//{
+//    int digitCount = 0;
+//    int temp = i;
+//    while (temp > 0)
+//    {
+//        digitCount++;
+//        temp /= 10;
+//    }
+//    if (digitCount == 3)
+//    {
+//        sumOfThree += i;
+//        multOfThree *= i;
+//    }
+//    if(digitCount == 4)
+//    {
+//        sumOfFour += i;
+//        multOfFour *= i;
+//    }
+//    if(digitCount == 5)
+//        sumOfFive += i;
+//    if(digitCount == 6)
+//        sumOfSix += i;
+//}
+//result = sumOfThree + multOfFour;
+//result *= 10;
+//result += 7;
+//result += sumOfFive;
+//result -= (multOfThree * 10 + 1);
+//result += sumOfSix;
+//result -= (sumOfThree + sumOfFour);
+//result *= 0.18;
+//result *= 0.03;
+//result *= 0.01;
+//result += sumOfFive;
+
+//Console.WriteLine(result);
+
+#endregion
